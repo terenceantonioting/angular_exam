@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.btn-primary {
+  background-color: #3085d6;
+  border-color: #3085d6;
+}
+
+.btn-danger {
+  background-color: #d33;
+  border-color: #d33;
+}
+
+input.ng-invalid {
+  border-left: 5px solid red;
+}
+
+input.ng-valid {
+  border-left: 5px solid green;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
