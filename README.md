@@ -2,6 +2,18 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.4.
 
+## Installation
+
+1.) Clone or download this repository
+2.) Run `npm install` for node packages dependencies
+3.) Run `ng build` to build the project
+4.) Run `ng serve` to test the project
+5.) Navigate to `http://localhost:4200/` to view the project
+
+## Git Commands Used
+
+git init, git clone <git_repository>, git checkout -M <branch_name>, git add ., git commit -m "<message>", git push -u <origin_name> <branch_name>
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
