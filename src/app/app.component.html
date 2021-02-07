@@ -72,7 +72,7 @@
           <div class="form-floating mb-3">
             <input type="text" class="form-control" id="floatingContact" formControlName="contact" placeholder="09XXXXXXXXX">
             <label for="floatingContact">Contact Number</label>
-            <span class="error" *ngIf="contact.pattern && contact.touched">Please enter 10 digit Mobile Number!</span>
+            <span class="error" *ngIf="contact.errors?.pattern && contact.touched">Please enter 10 digit Mobile Number!</span>
             <span class="error" *ngIf="contact.invalid && contact.touched">Contact Number is Invalid!</span>
           </div>
           <div class="form-floating">
@@ -119,7 +119,7 @@
           <div class="form-floating mb-3">
             <input type="text" class="form-control" id="floatingEditContact" formControlName="contact" placeholder="09XXXXXXXXX">
             <label for="floatingEditContact">Contact Number</label>
-            <span class="error" *ngIf="contact.pattern && contact.touched">Please enter 10 digit Mobile Number!</span>
+            <span class="error" *ngIf="contact.errors?.pattern && contact.touched">Please enter 10 digit Mobile Number!</span>
             <span class="error" *ngIf="contact.invalid && contact.touched">Contact Number is Invalid!</span>
           </div>
           <div class="form-floating">
